@@ -1,0 +1,31 @@
+body, h1, form, section, select, option, label, input{
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body {
+  border: dotted black 2px;
+  background-color: #87cefa;
+}
+
+[name="card-type"] {
+  width: 100px;
+}
+[name="card-name"] {
+  width: 350px;
+}
+[name="card-number"] {
+  width: 400px;
+}
+.ccnum {
+  width: 400px;
+}
+input, select, button {
+  border: solid black 1px;
+}
+[name='ccv'] {
+  width: 100px;
+  height: 10px;
+}

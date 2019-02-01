@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script src="main.js"></script>
+  <title>Totally Legit CC</title>
+</head>
+<body>
+  <h1>Credit Card Information</h1>
+  <form>
+    <section name="card-type">
+      <label>Card Type:</label>
+      <select>
+        <option>VISA</option>
+        <option>AMEX</option>
+        <option>Mastercard</option>
+        <option>Discover</option>
+      </select>
+    </section>
+    <section name="card-name">
+      <label>Card Holders Name (As shown on Card):</label>
+      <input type="text">
+    </section>
+    <section name="card-number">
+      <label>Card Number:</label>
+      <input class="ccnum" type="text">
+    </section>
+    <section>
+      <label>CCV</label>
+      <input name='ccv' type="number">
+    </section>
+    <section name="exp-date">
+      <label>Expiration Date:</label>
+      <input type="month">
+    </section>
+    <section name="zip-code">
+      <Label>Zip Code</Label>
+      <input type="text">
+    </section>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
